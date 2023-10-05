@@ -1,5 +1,16 @@
 # MainOverflowHQ Task
 
+## Running Test Suite
+### Requirements
+
+- Linux, MacOS or Windows(WSL) computer
+- Python >3.6 installed
+
+To run the test suite,
+```shell
+make test
+```
+
 ## String Compression Time Complexity
 
 The initialization of variables `compressed`, `current_char`, and `curr_char_count` are constant time operations, i.e., O(1).
