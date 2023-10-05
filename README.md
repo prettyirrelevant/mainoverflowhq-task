@@ -35,8 +35,9 @@ if curr_char_count > 1:
 return ''.join(compressed)
 ```
 
-<br><br>
-**TLDR**: Given that the loop is the dominant factor in the function and all operations inside the loop are constant time, the overall time complexity of the function is O(n), where n is the length of the input string.
+Given that the loop is the dominant factor in the function and all operations inside the loop are constant time,
+the overall time complexity of the function is O(n),
+where n is the length of the input string.
 
 ## Network Failure Point Time Complexity
 
